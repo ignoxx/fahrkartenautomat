@@ -24,5 +24,10 @@ namespace Fahrkartenautomat
         {
             InitializeComponent();
         }
+
+        private void BtnBuyTicketA_Click(object sender, RoutedEventArgs e)
+        {
+            Console.WriteLine("Buy ticket A");
+        }
     }
 }
