@@ -184,8 +184,8 @@ namespace Fahrkartenautomat
                 if (RemainingCosts <= 0)
                 {
                     float returnMoney = Math.Abs(RemainingCosts);
+                    var exchange = returnMoney;
                     Balance += returnMoney;
-
 
                     foreach (KeyValuePair<float, MoneyItem> entry in _money.Reverse())
                     {
@@ -193,14 +193,14 @@ namespace Fahrkartenautomat
                         float rest = returnMoney / entry.Key;
                         if (rest >= 1)
                         {
-                            returnMoney -= (float) Math.Floor(rest) * entry.Key;
-                            _money[entry.Key].Amount += (int) Math.Floor(rest);
+                            returnMoney -= (float)Math.Floor(rest) * entry.Key;
+                            _money[entry.Key].Amount += (int)Math.Floor(rest);
                         }
                     }
 
 
                     RemainingCosts = 0;
-                    MessageBox.Show("Ticket(s) purchased!\nExchange: " + returnMoney.ToString("0.00"));
+                    MessageBox.Show("Ticket(s) purchased!\nExchange: " + exchange.ToString("0.00"));
                 }
             }
             else
