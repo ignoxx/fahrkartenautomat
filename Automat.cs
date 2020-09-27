@@ -91,20 +91,31 @@ namespace Fahrkartenautomat
         public void AddCash(float value)
         {
             _money[value].Amount += 1;
-            Balance += value;
+            CalculateBalance();
+        }
+
+        private void CalculateBalance()
+        {
+            float new_balance = 0;
+            foreach (KeyValuePair<float, MoneyItem> entry in _money)
+            {
+                new_balance += entry.Value.Amount * entry.Key;
+            }
+
+            Balance = new_balance;
         }
 
         public void InsertCash(float value)
         {
             if (RemainingCosts <= 0)
             {
-                MessageBox.Show("No remaining costs, buy a ticket below");
+                MessageBox.Show("No remaining costs, buy a ticket below.");
                 return;
             }
 
             if (Balance <= 0)
             {
-                MessageBox.Show("Out of cash");
+                MessageBox.Show("Out of cash.");
                 return;
             }
 
@@ -112,16 +123,17 @@ namespace Fahrkartenautomat
             {
                 RemainingCosts -= value;
                 _money[value].Amount -= 1;
-                Balance -= value;
+                CalculateBalance();
 
+                // Check if Tickets are paid off and calculate exchange
                 if (RemainingCosts <= 0)
                 {
-                    float returnMoney = Math.Abs(RemainingCosts);
+                    float returnMoney = (float)Math.Round(Math.Abs(RemainingCosts), 2);
                     var exchange = returnMoney;
-                    Balance += returnMoney;
 
                     foreach (KeyValuePair<float, MoneyItem> entry in _money.Reverse())
                     {
+                        returnMoney = (float)Math.Round(returnMoney, 2);
                         float rest = returnMoney / entry.Key;
                         if (rest >= 1)
                         {
@@ -131,12 +143,9 @@ namespace Fahrkartenautomat
                     }
 
                     RemainingCosts = 0;
+                    CalculateBalance();
                     MessageBox.Show($"Ticket(s) purchased!\nExchange: {exchange.ToString("0.00")}€");
                 }
-            }
-            else
-            {
-                MessageBox.Show($"No {value.ToString("0.00")}€ cash left");
             }
         }
     }
