@@ -14,7 +14,7 @@
         <Rectangle HorizontalAlignment="Left" Height="209" Margin="68,409,0,0" Stroke="Black" VerticalAlignment="Top" Width="151"/>
 
         <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="Your Balance:" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label x:Name="LblBalance" Content="0€" HorizontalAlignment="Left" Margin="84,5,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LblBalance" Content="0.00€" HorizontalAlignment="Left" Margin="84,5,0,0" VerticalAlignment="Top"/>
         <Button x:Name="BtnBuyTicketA" Content="Buy for 2.90€" HorizontalAlignment="Left" Margin="81,582,0,0" VerticalAlignment="Top" Width="124" Click="BtnBuyTicketA_Click" Height="27"/>
         <Rectangle HorizontalAlignment="Left" Height="58" Margin="54,65,0,0" Stroke="Black" VerticalAlignment="Top" Width="66"/>
         <Label Content="10ct" HorizontalAlignment="Left" Margin="54,69,0,0" VerticalAlignment="Top" Width="66" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontWeight="Bold"/>

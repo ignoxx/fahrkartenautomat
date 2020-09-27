@@ -122,7 +122,6 @@ namespace Fahrkartenautomat
 
                     foreach (KeyValuePair<float, MoneyItem> entry in _money.Reverse())
                     {
-                        // do something with entry.Value or entry.Key
                         float rest = returnMoney / entry.Key;
                         if (rest >= 1)
                         {
@@ -131,10 +130,8 @@ namespace Fahrkartenautomat
                         }
                     }
 
-
                     RemainingCosts = 0;
                     MessageBox.Show($"Ticket(s) purchased!\nExchange: {exchange.ToString("0.00")}€");
-
                 }
             }
             else
