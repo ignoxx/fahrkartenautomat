@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ignox\\Projects\\fahrkartenautomat\\Fahrkartenautomat.csproj": {}
+    "C:\\Users\\ignas\\source\\repos\\Fahrkartenautomat\\Fahrkartenautomat\\Fahrkartenautomat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ignox\\Projects\\fahrkartenautomat\\Fahrkartenautomat.csproj": {
+    "C:\\Users\\ignas\\source\\repos\\Fahrkartenautomat\\Fahrkartenautomat\\Fahrkartenautomat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ignox\\Projects\\fahrkartenautomat\\Fahrkartenautomat.csproj",
+        "projectUniqueName": "C:\\Users\\ignas\\source\\repos\\Fahrkartenautomat\\Fahrkartenautomat\\Fahrkartenautomat.csproj",
         "projectName": "Fahrkartenautomat",
-        "projectPath": "C:\\Users\\ignox\\Projects\\fahrkartenautomat\\Fahrkartenautomat.csproj",
-        "packagesPath": "C:\\Users\\ignox\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ignox\\Projects\\fahrkartenautomat\\obj\\",
+        "projectPath": "C:\\Users\\ignas\\source\\repos\\Fahrkartenautomat\\Fahrkartenautomat\\Fahrkartenautomat.csproj",
+        "packagesPath": "C:\\Users\\ignas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ignas\\source\\repos\\Fahrkartenautomat\\Fahrkartenautomat\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ignox\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ignas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

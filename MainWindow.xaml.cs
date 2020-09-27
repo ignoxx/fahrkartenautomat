@@ -10,32 +10,6 @@ namespace Fahrkartenautomat
     /// </summary>
     public partial class MainWindow : Window
     {
-        private class MoneyItem
-        {
-            readonly System.Windows.Controls.Label _gui_label;
-            private int _amount;
-            public int Amount
-            {
-                get { return _amount; }
-                set
-                {
-                    _amount = value;
-                    if (_gui_label != null)
-                        _gui_label.Content = value.ToString() + "x";
-
-
-                }
-            }
-            public float Value { get; set; }
-
-            public MoneyItem(float value, System.Windows.Controls.Label label)
-            {
-                Amount = 0;
-                Value = value;
-                _gui_label = label;
-            }
-        }
-
         private float _balance;
         private float _remainingCosts;
         private readonly Dictionary<float, MoneyItem> _money;
@@ -74,7 +48,10 @@ namespace Fahrkartenautomat
                 { 0.5f, new MoneyItem(0.5f, Lbl50ct) },
                 { 1.0f, new MoneyItem(1.0f, Lbl1eu) },
                 { 2.0f, new MoneyItem(2.0f, Lbl2eu) },
-                { 5.0f, new MoneyItem(5.0f, Lbl5eu) }
+                { 5.0f, new MoneyItem(5.0f, Lbl5eu) },
+                { 10.0f, new MoneyItem(10.0f, Lbl10eu) },
+                { 20.0f, new MoneyItem(20.0f, Lbl20eu) }
+
             };
         }
 
@@ -131,6 +108,20 @@ namespace Fahrkartenautomat
             Balance += value;
         }
 
+        private void Btn10eu_Add_Click(object sender, RoutedEventArgs e)
+        {
+            float value = 10.0f;
+            _money[value].Amount += 1;
+            Balance += value;
+        }
+
+        private void Btn20eu_Add_Click(object sender, RoutedEventArgs e)
+        {
+            float value = 20.0f;
+            _money[value].Amount += 1;
+            Balance += value;
+        }
+
         private void Btn10ct_Click(object sender, RoutedEventArgs e)
         {
             float value = 0.1f;
@@ -158,6 +149,18 @@ namespace Fahrkartenautomat
         private void Btn5eu_Click(object sender, RoutedEventArgs e)
         {
             float value = 5.0f;
+            onPaid(value);
+        }
+
+        private void Btn10eu_Click(object sender, RoutedEventArgs e)
+        {
+            float value = 10.0f;
+            onPaid(value);
+        }
+
+        private void Btn20eu_Click(object sender, RoutedEventArgs e)
+        {
+            float value = 20.0f;
             onPaid(value);
         }
 
@@ -200,7 +203,8 @@ namespace Fahrkartenautomat
 
 
                     RemainingCosts = 0;
-                    MessageBox.Show("Ticket(s) purchased!\nExchange: " + exchange.ToString("0.00"));
+                    MessageBox.Show($"Ticket(s) purchased!\nExchange: {exchange.ToString("0.00")}€");
+
                 }
             }
             else

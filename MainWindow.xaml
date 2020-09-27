@@ -16,26 +16,26 @@
         <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="Your Balance:" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold"/>
         <Label x:Name="LblBalance" Content="0€" HorizontalAlignment="Left" Margin="84,5,0,0" VerticalAlignment="Top"/>
         <Button x:Name="BtnBuyTicketA" Content="Buy for 1.00€" HorizontalAlignment="Left" Margin="81,582,0,0" VerticalAlignment="Top" Width="124" Click="BtnBuyTicketA_Click" Height="27"/>
-        <Rectangle HorizontalAlignment="Left" Height="58" Margin="120,62,0,0" Stroke="Black" VerticalAlignment="Top" Width="66"/>
-        <Label Content="10ct" HorizontalAlignment="Left" Margin="120,66,0,0" VerticalAlignment="Top" Width="66" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontWeight="Bold"/>
-        <Label x:Name="Lbl10ct" Content="0x" HorizontalAlignment="Left" Margin="120,94,0,0" VerticalAlignment="Top" Width="66" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontSize="10" Height="26"/>
-        <Rectangle HorizontalAlignment="Left" Height="58" Margin="197,62,0,0" Stroke="Black" VerticalAlignment="Top" Width="66"/>
-        <Label Content="50ct" HorizontalAlignment="Left" Margin="197,66,0,0" VerticalAlignment="Top" Width="66" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontWeight="Bold"/>
-        <Label x:Name="Lbl50ct" Content="0x" HorizontalAlignment="Left" Margin="197,94,0,0" VerticalAlignment="Top" Width="66" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontSize="10" Height="26"/>
-        <Rectangle HorizontalAlignment="Left" Height="58" Margin="274,62,0,0" Stroke="Black" VerticalAlignment="Top" Width="66"/>
-        <Label Content="1eu" HorizontalAlignment="Left" Margin="274,66,0,0" VerticalAlignment="Top" Width="66" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontWeight="Bold"/>
-        <Label x:Name="Lbl1eu" Content="0x" HorizontalAlignment="Left" Margin="274,94,0,0" VerticalAlignment="Top" Width="66" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontSize="10" Height="26"/>
-        <Rectangle HorizontalAlignment="Left" Height="58" Margin="351,62,0,0" Stroke="Black" VerticalAlignment="Top" Width="66"/>
-        <Label Content="2eu" HorizontalAlignment="Left" Margin="351,66,0,0" VerticalAlignment="Top" Width="66" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontWeight="Bold"/>
-        <Label x:Name="Lbl2eu" Content="0x" HorizontalAlignment="Left" Margin="351,94,0,0" VerticalAlignment="Top" Width="66" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontSize="10" Height="26"/>
-        <Rectangle HorizontalAlignment="Left" Height="58" Margin="428,62,0,0" Stroke="Black" VerticalAlignment="Top" Width="66"/>
-        <Label Content="5eu" HorizontalAlignment="Left" Margin="428,66,0,0" VerticalAlignment="Top" Width="66" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontWeight="Bold"/>
-        <Label x:Name="Lbl5eu" Content="0x" HorizontalAlignment="Left" Margin="428,94,0,0" VerticalAlignment="Top" Width="66" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontSize="10" Height="26"/>
-        <Button x:Name="Btn10ct" Content="Use" HorizontalAlignment="Left" Margin="140,126,0,0" VerticalAlignment="Top" Width="46" Click="Btn10ct_Click"/>
-        <Button x:Name="Btn50ct" Content="Use" HorizontalAlignment="Left" Margin="217,126,0,0" VerticalAlignment="Top" Width="46" Click="Btn50ct_Click"/>
-        <Button x:Name="Btn1eu" Content="Use" HorizontalAlignment="Left" Margin="294,126,0,0" VerticalAlignment="Top" Width="46" Click="Btn1eu_Click"/>
-        <Button x:Name="Btn2eu" Content="Use" HorizontalAlignment="Left" Margin="371,126,0,0" VerticalAlignment="Top" Width="46" Click="Btn2eu_Click"/>
-        <Button x:Name="Btn5eu" Content="Use" HorizontalAlignment="Left" Margin="448,126,0,0" VerticalAlignment="Top" Width="46" Click="Btn5eu_Click"/>
+        <Rectangle HorizontalAlignment="Left" Height="58" Margin="54,65,0,0" Stroke="Black" VerticalAlignment="Top" Width="66"/>
+        <Label Content="10ct" HorizontalAlignment="Left" Margin="54,69,0,0" VerticalAlignment="Top" Width="66" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontWeight="Bold"/>
+        <Label x:Name="Lbl10ct" Content="0x" HorizontalAlignment="Left" Margin="54,97,0,0" VerticalAlignment="Top" Width="66" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontSize="10" Height="26"/>
+        <Rectangle HorizontalAlignment="Left" Height="58" Margin="131,65,0,0" Stroke="Black" VerticalAlignment="Top" Width="66"/>
+        <Label Content="50ct" HorizontalAlignment="Left" Margin="131,69,0,0" VerticalAlignment="Top" Width="66" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontWeight="Bold"/>
+        <Label x:Name="Lbl50ct" Content="0x" HorizontalAlignment="Left" Margin="131,97,0,0" VerticalAlignment="Top" Width="66" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontSize="10" Height="26"/>
+        <Rectangle HorizontalAlignment="Left" Height="58" Margin="208,65,0,0" Stroke="Black" VerticalAlignment="Top" Width="66"/>
+        <Label Content="1eu" HorizontalAlignment="Left" Margin="208,69,0,0" VerticalAlignment="Top" Width="66" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontWeight="Bold"/>
+        <Label x:Name="Lbl1eu" Content="0x" HorizontalAlignment="Left" Margin="208,97,0,0" VerticalAlignment="Top" Width="66" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontSize="10" Height="26"/>
+        <Rectangle HorizontalAlignment="Left" Height="58" Margin="285,65,0,0" Stroke="Black" VerticalAlignment="Top" Width="66"/>
+        <Label Content="2eu" HorizontalAlignment="Left" Margin="285,69,0,0" VerticalAlignment="Top" Width="66" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontWeight="Bold"/>
+        <Label x:Name="Lbl2eu" Content="0x" HorizontalAlignment="Left" Margin="285,97,0,0" VerticalAlignment="Top" Width="66" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontSize="10" Height="26"/>
+        <Rectangle HorizontalAlignment="Left" Height="58" Margin="362,65,0,0" Stroke="Black" VerticalAlignment="Top" Width="66"/>
+        <Label Content="5eu" HorizontalAlignment="Left" Margin="362,69,0,0" VerticalAlignment="Top" Width="66" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontWeight="Bold"/>
+        <Label x:Name="Lbl5eu" Content="0x" HorizontalAlignment="Left" Margin="362,97,0,0" VerticalAlignment="Top" Width="66" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontSize="10" Height="26"/>
+        <Button x:Name="Btn10ct" Content="Use" HorizontalAlignment="Left" Margin="74,129,0,0" VerticalAlignment="Top" Width="46" Click="Btn10ct_Click"/>
+        <Button x:Name="Btn50ct" Content="Use" HorizontalAlignment="Left" Margin="151,129,0,0" VerticalAlignment="Top" Width="46" Click="Btn50ct_Click"/>
+        <Button x:Name="Btn1eu" Content="Use" HorizontalAlignment="Left" Margin="228,129,0,0" VerticalAlignment="Top" Width="46" Click="Btn1eu_Click"/>
+        <Button x:Name="Btn2eu" Content="Use" HorizontalAlignment="Left" Margin="305,129,0,0" VerticalAlignment="Top" Width="46" Click="Btn2eu_Click"/>
+        <Button x:Name="Btn5eu" Content="Use" HorizontalAlignment="Left" Margin="382,129,0,0" VerticalAlignment="Top" Width="46" Click="Btn5eu_Click"/>
         <Button x:Name="BtnBuyTicketAB" Content="Buy for 2.50€" HorizontalAlignment="Center" Margin="0,582,0,0" VerticalAlignment="Top" Width="124" Height="27" Click="BtnBuyTicketAB_Click"/>
         <Rectangle HorizontalAlignment="Left" Height="209" Margin="387,409,0,0" Stroke="Black" VerticalAlignment="Top" Width="151"/>
         <Button x:Name="BtnBuyTicketABC" Content="Buy for 4.50€" HorizontalAlignment="Left" Margin="400,582,0,0" VerticalAlignment="Top" Width="124" Height="27" Click="BtnBuyTicketABC_Click"/>
@@ -48,10 +48,20 @@
         <Image Source="/images/Barcode-PNG-Pic.png" Margin="244,440,242,150" />
         <Label Content="Ticket A" HorizontalAlignment="Left" Margin="68,417,0,0" VerticalAlignment="Top" Width="151" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontWeight="Bold"/>
         <Image Source="/images/Barcode-PNG-Pic.png" Margin="81,440,405,150" />
-        <Button x:Name="Btn10ct_Add" Content="+1" HorizontalAlignment="Left" Margin="120,126,0,0" VerticalAlignment="Top" Width="18" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="10" Height="20" Click="Btn10ct_Add_Click"/>
-        <Button x:Name="Btn50ct_Add" Content="+1" HorizontalAlignment="Left" Margin="197,126,0,0" VerticalAlignment="Top" Width="18" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="10" Height="20" Click="Btn50ct_Add_Click"/>
-        <Button x:Name="Btn1eu_Add" Content="+1" HorizontalAlignment="Left" Margin="274,126,0,0" VerticalAlignment="Top" Width="18" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="10" Height="20" Click="Btn1eu_Add_Click"/>
-        <Button x:Name="Btn2eu_Add" Content="+1" HorizontalAlignment="Left" Margin="351,126,0,0" VerticalAlignment="Top" Width="18" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="10" Height="20" Click="Btn2eu_Add_Click"/>
-        <Button x:Name="Btn5eu_Add" Content="+1" HorizontalAlignment="Left" Margin="428,126,0,0" VerticalAlignment="Top" Width="18" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="10" Height="20" Click="Btn5eu_Add_Click"/>
+        <Button x:Name="Btn10ct_Add" Content="+" HorizontalAlignment="Left" Margin="54,129,0,0" VerticalAlignment="Top" Width="18" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" Height="20" Click="Btn10ct_Add_Click"/>
+        <Button x:Name="Btn50ct_Add" Content="+" HorizontalAlignment="Left" Margin="131,129,0,0" VerticalAlignment="Top" Width="18" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="10" Height="20" Click="Btn50ct_Add_Click"/>
+        <Button x:Name="Btn1eu_Add" Content="+" HorizontalAlignment="Left" Margin="208,129,0,0" VerticalAlignment="Top" Width="18" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="10" Height="20" Click="Btn1eu_Add_Click"/>
+        <Button x:Name="Btn2eu_Add" Content="+" HorizontalAlignment="Left" Margin="285,129,0,0" VerticalAlignment="Top" Width="18" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="10" Height="20" Click="Btn2eu_Add_Click"/>
+        <Button x:Name="Btn5eu_Add" Content="+" HorizontalAlignment="Left" Margin="362,129,0,0" VerticalAlignment="Top" Width="18" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="10" Height="20" Click="Btn5eu_Add_Click"/>
+        <Rectangle HorizontalAlignment="Left" Height="58" Margin="440,65,0,0" Stroke="Black" VerticalAlignment="Top" Width="66"/>
+        <Label Content="10eu" HorizontalAlignment="Left" Margin="440,69,0,0" VerticalAlignment="Top" Width="66" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontWeight="Bold"/>
+        <Label x:Name="Lbl10eu" Content="0x" HorizontalAlignment="Left" Margin="440,97,0,0" VerticalAlignment="Top" Width="66" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontSize="10" Height="26"/>
+        <Button x:Name="Btn10eu" Content="Use" HorizontalAlignment="Left" Margin="460,129,0,0" VerticalAlignment="Top" Width="46" Click="Btn10eu_Click"/>
+        <Button x:Name="Btn10eu_Add" Content="+" HorizontalAlignment="Left" Margin="440,129,0,0" VerticalAlignment="Top" Width="18" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="10" Height="20" Click="Btn10eu_Add_Click"/>
+        <Rectangle HorizontalAlignment="Left" Height="58" Margin="517,65,0,0" Stroke="Black" VerticalAlignment="Top" Width="66"/>
+        <Label Content="20eu" HorizontalAlignment="Left" Margin="517,69,0,0" VerticalAlignment="Top" Width="66" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontWeight="Bold"/>
+        <Label x:Name="Lbl20eu" Content="0x" HorizontalAlignment="Left" Margin="517,97,0,0" VerticalAlignment="Top" Width="66" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontSize="10" Height="26"/>
+        <Button x:Name="Btn20eu" Content="Use" HorizontalAlignment="Left" Margin="537,129,0,0" VerticalAlignment="Top" Width="46" Click="Btn20eu_Click"/>
+        <Button x:Name="Btn20eu_Add" Content="+" HorizontalAlignment="Left" Margin="517,129,0,0" VerticalAlignment="Top" Width="18" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="10" Height="20" Click="Btn20eu_Add_Click"/>
     </Grid>
 </Window>

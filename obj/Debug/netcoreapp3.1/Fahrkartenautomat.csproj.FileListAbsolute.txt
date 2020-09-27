@@ -18,7 +18,6 @@ C:\Users\ignas\source\repos\Fahrkartenautomat\Fahrkartenautomat\obj\Debug\netcor
 C:\Users\ignas\source\repos\Fahrkartenautomat\Fahrkartenautomat\obj\Debug\netcoreapp3.1\Fahrkartenautomat.dll
 C:\Users\ignas\source\repos\Fahrkartenautomat\Fahrkartenautomat\obj\Debug\netcoreapp3.1\Fahrkartenautomat.pdb
 C:\Users\ignas\source\repos\Fahrkartenautomat\Fahrkartenautomat\obj\Debug\netcoreapp3.1\Fahrkartenautomat.genruntimeconfig.cache
-C:\Users\ignas\source\repos\Fahrkartenautomat\Fahrkartenautomat\obj\Debug\netcoreapp3.1\Fahrkartenautomat.csprojAssemblyReference.cache
 C:\Users\ignox\Projects\fahrkartenautomat\bin\Debug\netcoreapp3.1\Fahrkartenautomat.exe
 C:\Users\ignox\Projects\fahrkartenautomat\bin\Debug\netcoreapp3.1\Fahrkartenautomat.deps.json
 C:\Users\ignox\Projects\fahrkartenautomat\bin\Debug\netcoreapp3.1\Fahrkartenautomat.runtimeconfig.json
@@ -39,3 +38,4 @@ C:\Users\ignox\Projects\fahrkartenautomat\obj\Debug\netcoreapp3.1\Fahrkartenauto
 C:\Users\ignox\Projects\fahrkartenautomat\obj\Debug\netcoreapp3.1\Fahrkartenautomat.dll
 C:\Users\ignox\Projects\fahrkartenautomat\obj\Debug\netcoreapp3.1\Fahrkartenautomat.pdb
 C:\Users\ignox\Projects\fahrkartenautomat\obj\Debug\netcoreapp3.1\Fahrkartenautomat.genruntimeconfig.cache
+C:\Users\ignas\source\repos\Fahrkartenautomat\Fahrkartenautomat\obj\Debug\netcoreapp3.1\Fahrkartenautomat.csprojAssemblyReference.cache
