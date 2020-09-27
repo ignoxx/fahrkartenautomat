@@ -24,9 +24,9 @@ namespace Fahrkartenautomat
              );
         }
 
-        private void BtnBuyTicketA_Click(object sender, RoutedEventArgs e) => automat.BuyTicketA();
+        private void BtnBuyTicketA_Click(object sender, RoutedEventArgs e) => automat.BuyTicketAB();
 
-        private void BtnBuyTicketAB_Click(object sender, RoutedEventArgs e) => automat.BuyTicketAB();
+        private void BtnBuyTicketAB_Click(object sender, RoutedEventArgs e) => automat.BuyTicketBC();
 
         private void BtnBuyTicketABC_Click(object sender, RoutedEventArgs e) => automat.BuyTicketABC();
 

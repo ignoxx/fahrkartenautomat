@@ -70,21 +70,21 @@ namespace Fahrkartenautomat
             };
         }
 
-        public void BuyTicketA()
+        public void BuyTicketAB()
         {
-            float cost = 1.00f;
+            float cost = 2.90f;
             RemainingCosts += cost;
         }
 
-        public void BuyTicketAB()
+        public void BuyTicketBC()
         {
-            float cost = 2.50f;
+            float cost = 3.30f;
             RemainingCosts += cost;
         }
 
         public void BuyTicketABC()
         {
-            float cost = 4.50f;
+            float cost = 3.60f;
             RemainingCosts += cost;
         }
 

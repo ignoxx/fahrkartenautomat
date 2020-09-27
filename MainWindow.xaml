@@ -15,7 +15,7 @@
 
         <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="Your Balance:" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold"/>
         <Label x:Name="LblBalance" Content="0€" HorizontalAlignment="Left" Margin="84,5,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="BtnBuyTicketA" Content="Buy for 1.00€" HorizontalAlignment="Left" Margin="81,582,0,0" VerticalAlignment="Top" Width="124" Click="BtnBuyTicketA_Click" Height="27"/>
+        <Button x:Name="BtnBuyTicketA" Content="Buy for 2.90€" HorizontalAlignment="Left" Margin="81,582,0,0" VerticalAlignment="Top" Width="124" Click="BtnBuyTicketA_Click" Height="27"/>
         <Rectangle HorizontalAlignment="Left" Height="58" Margin="54,65,0,0" Stroke="Black" VerticalAlignment="Top" Width="66"/>
         <Label Content="10ct" HorizontalAlignment="Left" Margin="54,69,0,0" VerticalAlignment="Top" Width="66" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontWeight="Bold"/>
         <Label x:Name="Lbl10ct" Content="0x" HorizontalAlignment="Left" Margin="54,97,0,0" VerticalAlignment="Top" Width="66" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontSize="10" Height="26"/>
@@ -36,17 +36,17 @@
         <Button x:Name="Btn1eu" Content="Use" HorizontalAlignment="Left" Margin="228,129,0,0" VerticalAlignment="Top" Width="46" Click="Btn1eu_Click"/>
         <Button x:Name="Btn2eu" Content="Use" HorizontalAlignment="Left" Margin="305,129,0,0" VerticalAlignment="Top" Width="46" Click="Btn2eu_Click"/>
         <Button x:Name="Btn5eu" Content="Use" HorizontalAlignment="Left" Margin="382,129,0,0" VerticalAlignment="Top" Width="46" Click="Btn5eu_Click"/>
-        <Button x:Name="BtnBuyTicketAB" Content="Buy for 2.50€" HorizontalAlignment="Center" Margin="0,582,0,0" VerticalAlignment="Top" Width="124" Height="27" Click="BtnBuyTicketAB_Click"/>
+        <Button x:Name="BtnBuyTicketAB" Content="Buy for 3.30€" HorizontalAlignment="Center" Margin="0,582,0,0" VerticalAlignment="Top" Width="124" Height="27" Click="BtnBuyTicketAB_Click"/>
         <Rectangle HorizontalAlignment="Left" Height="209" Margin="387,409,0,0" Stroke="Black" VerticalAlignment="Top" Width="151"/>
-        <Button x:Name="BtnBuyTicketABC" Content="Buy for 4.50€" HorizontalAlignment="Left" Margin="400,582,0,0" VerticalAlignment="Top" Width="124" Height="27" Click="BtnBuyTicketABC_Click"/>
+        <Button x:Name="BtnBuyTicketABC" Content="Buy for 3.60€" HorizontalAlignment="Left" Margin="400,582,0,0" VerticalAlignment="Top" Width="124" Height="27" Click="BtnBuyTicketABC_Click"/>
         <Label Content="Ticket ABC" HorizontalAlignment="Left" Margin="387,417,0,0" VerticalAlignment="Top" Width="151" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontWeight="Bold"/>
         <Label Content="Remaining costs" HorizontalAlignment="Center" Margin="0,236,0,0" VerticalAlignment="Top" Width="108" HorizontalContentAlignment="Center" />
         <Rectangle HorizontalAlignment="Center" Height="100" Margin="0,233,0,0" Stroke="Black" VerticalAlignment="Top" Width="254"/>
         <Label x:Name="LblRemainingCosts" Content="0.00€" HorizontalAlignment="Center" Margin="0,269,0,0" VerticalAlignment="Top" Width="248" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="20"/>
         <Image Source="/images/Barcode-PNG-Pic.png" Margin="400,440,86,150" />
-        <Label Content="Ticket AB" HorizontalAlignment="Left" Margin="231,417,0,0" VerticalAlignment="Top" Width="151" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontWeight="Bold"/>
+        <Label Content="Ticket BC" HorizontalAlignment="Left" Margin="231,417,0,0" VerticalAlignment="Top" Width="151" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontWeight="Bold"/>
         <Image Source="/images/Barcode-PNG-Pic.png" Margin="244,440,242,150" />
-        <Label Content="Ticket A" HorizontalAlignment="Left" Margin="68,417,0,0" VerticalAlignment="Top" Width="151" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontWeight="Bold"/>
+        <Label Content="Ticket AB" HorizontalAlignment="Left" Margin="68,417,0,0" VerticalAlignment="Top" Width="151" FontFamily="Segoe UI" HorizontalContentAlignment="Center" FontWeight="Bold"/>
         <Image Source="/images/Barcode-PNG-Pic.png" Margin="81,440,405,150" />
         <Button x:Name="Btn10ct_Add" Content="+" HorizontalAlignment="Left" Margin="54,129,0,0" VerticalAlignment="Top" Width="18" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" Height="20" Click="Btn10ct_Add_Click"/>
         <Button x:Name="Btn50ct_Add" Content="+" HorizontalAlignment="Left" Margin="131,129,0,0" VerticalAlignment="Top" Width="18" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="10" Height="20" Click="Btn50ct_Add_Click"/>
