@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic.CompilerServices;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
@@ -46,6 +47,8 @@ namespace Fahrkartenautomat
 
         private Dictionary<float, MoneyItem> _money;
 
+        private string ticketOutput;
+
         public Automat(Label LblBalance, Label LblRemainingCosts, Label Lbl10ct, Label Lbl50ct, Label Lbl1eu, Label Lbl2eu, Label Lbl5eu, Label Lbl10eu, Label Lbl20eu)
         {
             this.LblBalance = LblBalance;
@@ -74,18 +77,21 @@ namespace Fahrkartenautomat
         {
             float cost = 2.90f;
             RemainingCosts += cost;
+            this.ticketOutput += $"Ticket AB \t{cost.ToString("0.00")}€\n";
         }
 
         public void BuyTicketBC()
         {
             float cost = 3.30f;
             RemainingCosts += cost;
+            this.ticketOutput += $"Ticket BC \t{cost.ToString("0.00")}€\n";
         }
 
         public void BuyTicketABC()
         {
             float cost = 3.60f;
             RemainingCosts += cost;
+            this.ticketOutput += $"Ticket ABC\t{cost.ToString("0.00")}€\n";
         }
 
         public void AddCash(float value)
@@ -144,7 +150,16 @@ namespace Fahrkartenautomat
 
                     RemainingCosts = 0;
                     CalculateBalance();
-                    MessageBox.Show($"Ticket(s) purchased!\nExchange: {exchange.ToString("0.00")}€");
+
+                    // Output
+                    string output = "";
+                    output += "Ticket(s) purchased!\n";
+                    output += "--------------------\n";
+                    output += $"{this.ticketOutput}\n";
+                    output += $"Exchange: \t{exchange.ToString("0.00")}€";
+
+                    MessageBox.Show(output);
+                    this.ticketOutput = "";
                 }
             }
         }
