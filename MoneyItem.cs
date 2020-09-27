@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Windows.Controls;
 
 namespace Fahrkartenautomat
 {
     class MoneyItem
     {
-        readonly System.Windows.Controls.Label _gui_label;
+        private Label _gui_label;
         private int _amount;
         public int Amount
         {
@@ -16,13 +14,11 @@ namespace Fahrkartenautomat
                 _amount = value;
                 if (_gui_label != null)
                     _gui_label.Content = value.ToString() + "x";
-
-
             }
         }
         public float Value { get; set; }
 
-        public MoneyItem(float value, System.Windows.Controls.Label label)
+        public MoneyItem(float value, Label label)
         {
             Amount = 0;
             Value = value;
