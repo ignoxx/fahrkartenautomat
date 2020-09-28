@@ -7,7 +7,7 @@ namespace Fahrkartenautomat
     /// </summary>
     public partial class MainWindow : Window
     {
-        private Automat automat;
+        private readonly Automat automat;
         public MainWindow()
         {
             InitializeComponent();

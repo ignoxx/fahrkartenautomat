@@ -1,5 +1,4 @@
-﻿using Microsoft.VisualBasic.CompilerServices;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
@@ -9,15 +8,15 @@ namespace Fahrkartenautomat
 {
     class Automat
     {
-        private Label LblBalance;
-        private Label LblRemainingCosts;
-        private Label Lbl10ct;
-        private Label Lbl50ct;
-        private Label Lbl1eu;
-        private Label Lbl2eu;
-        private Label Lbl5eu;
-        private Label Lbl10eu;
-        private Label Lbl20eu;
+        private readonly Label LblBalance;
+        private readonly Label LblRemainingCosts;
+        private readonly Label Lbl10ct;
+        private readonly Label Lbl50ct;
+        private readonly Label Lbl1eu;
+        private readonly Label Lbl2eu;
+        private readonly Label Lbl5eu;
+        private readonly Label Lbl10eu;
+        private readonly Label Lbl20eu;
 
         private float _balance;
         public float Balance
@@ -40,12 +39,12 @@ namespace Fahrkartenautomat
             get { return _remainingCosts; }
             set
             {
-                _remainingCosts = value;
+                _remainingCosts = (float)Math.Round(value, 2);
                 LblRemainingCosts.Content = value.ToString("0.00") + "€";
             }
         }
 
-        private Dictionary<float, MoneyItem> _money;
+        private readonly Dictionary<float, MoneyItem> _money;
 
         private string ticketOutput;
 
@@ -130,6 +129,8 @@ namespace Fahrkartenautomat
                 RemainingCosts -= value;
                 _money[value].Amount -= 1;
                 CalculateBalance();
+
+                MessageBox.Show(RemainingCosts.ToString());
 
                 // Check if Tickets are paid off and calculate exchange
                 if (RemainingCosts <= 0)

@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\ignas\\.nuget\\packages\\": {}
+    "C:\\Users\\ignox\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ignas\\source\\repos\\Fahrkartenautomat\\Fahrkartenautomat\\Fahrkartenautomat.csproj",
+      "projectUniqueName": "C:\\Users\\ignox\\Projects\\fahrkartenautomat\\Fahrkartenautomat.csproj",
       "projectName": "Fahrkartenautomat",
-      "projectPath": "C:\\Users\\ignas\\source\\repos\\Fahrkartenautomat\\Fahrkartenautomat\\Fahrkartenautomat.csproj",
-      "packagesPath": "C:\\Users\\ignas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ignas\\source\\repos\\Fahrkartenautomat\\Fahrkartenautomat\\obj\\",
+      "projectPath": "C:\\Users\\ignox\\Projects\\fahrkartenautomat\\Fahrkartenautomat.csproj",
+      "packagesPath": "C:\\Users\\ignox\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ignox\\Projects\\fahrkartenautomat\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ignas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ignox\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -4,7 +4,7 @@ namespace Fahrkartenautomat
 {
     class MoneyItem
     {
-        private Label _gui_label;
+        private readonly Label _gui_label;
         private int _amount;
         public int Amount
         {

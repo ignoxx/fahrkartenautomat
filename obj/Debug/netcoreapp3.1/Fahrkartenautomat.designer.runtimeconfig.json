@@ -6,8 +6,8 @@
       "version": "3.1.0"
     },
     "additionalProbingPaths": [
-      "C:\\Users\\ignas\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\ignas\\.nuget\\packages"
+      "C:\\Users\\ignox\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ignox\\.nuget\\packages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
