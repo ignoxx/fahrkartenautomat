@@ -25,7 +25,7 @@ namespace Fahrkartenautomat
 
             set
             {
-                _balance = value;
+                _balance = (float)Math.Round(value, 2);
                 if (_balance < 0)
                     _balance = 0;
 
@@ -129,8 +129,6 @@ namespace Fahrkartenautomat
                 RemainingCosts -= value;
                 _money[value].Amount -= 1;
                 CalculateBalance();
-
-                MessageBox.Show(RemainingCosts.ToString());
 
                 // Check if Tickets are paid off and calculate exchange
                 if (RemainingCosts <= 0)
